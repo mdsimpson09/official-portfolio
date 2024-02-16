@@ -15,7 +15,7 @@ function page() {
         <br></br>
         <br></br>
         <br></br>
-        <h1>homepage</h1>
+        <h1>homepage!</h1>
       </div>
     )
   }

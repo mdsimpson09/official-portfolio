@@ -23,12 +23,36 @@ const Navbar = () => {
       </div>
 
       <ul className={`absolute top-0 right-0 mt-12 mr-6 p-6 bg-white shadow-lg rounded-lg ${isOpen ? 'flex' : 'hidden'} flex-col items-center space-y-5`}>
-        <li><Link href="#home"><a className="text-lg font-bold">Home</a></Link></li>
-        <li><Link href="/resume"><a className="text-lg font-bold">Resume</a></Link></li>
-        <li><Link href="#about"><a className="text-lg font-bold">About Me</a></Link></li>
-        <li><Link href="#skills"><a className="text-lg font-bold">My Toolkit</a></Link></li>
-        <li><Link href="#projects"><a className="text-lg font-bold">Projects</a></Link></li>
-        <li><Link href="#contact"><a className="text-lg font-bold">Let's Connect</a></Link></li>
+        <li>
+          <Link href="#home">
+            <span className="text-lg font-bold cursor-pointer">Home</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/resume">
+            <span className="text-lg font-bold cursor-pointer">Resume</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="#about">
+            <span className="text-lg font-bold cursor-pointer">About Me</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="#skills">
+            <span className="text-lg font-bold cursor-pointer">My Toolkit</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="#projects">
+            <span className="text-lg font-bold cursor-pointer">Projects</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="#contact">
+            <span className="text-lg font-bold cursor-pointer">Let's Connect</span>
+          </Link>
+        </li>
       </ul>
     </nav>
   );

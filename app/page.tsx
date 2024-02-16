@@ -1,14 +1,17 @@
 // 'use server'
 import Link from "next/link";
+import Navbar from "./Navbar";
+
 
 
 
 const AboutPage = () => {
     return (
-      <main>
+      <div>
+        </ Navbar>
     <h1>hello world</h1>
     
-    </main>
+    </div>
 )}
 export default AboutPage;
  

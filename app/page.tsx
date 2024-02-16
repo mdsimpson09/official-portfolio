@@ -11,6 +11,10 @@ function page() {
     return (
       <div>
         <Navbar />
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <h1>homepage</h1>
       </div>
     )

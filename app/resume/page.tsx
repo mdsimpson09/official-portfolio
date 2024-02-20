@@ -1,5 +1,5 @@
 'use client'
 
 export default function Page() {
-    return <div>Hello World</div>;
+    return <div>resume page</div>;
   }

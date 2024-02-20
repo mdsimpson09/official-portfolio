@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { useState } from 'react';
 import Link from 'next/link';
 import { FaSun, FaMoon } from 'react-icons/fa';
@@ -38,7 +38,7 @@ const Navbar = () => {
 
       <ul className={`absolute top-0 right-0 mt-12 mr-6 p-6 bg-white shadow-lg rounded-lg ${isOpen ? 'flex' : 'hidden'} flex-col items-center space-y-5`}>
         <li>
-          <Link href="#home">
+          <Link href="/">
             <span className="text-lg font-bold cursor-pointer">Home</span>
           </Link>
         </li>

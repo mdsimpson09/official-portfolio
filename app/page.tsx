@@ -23,7 +23,7 @@ const AboutPage = () => {
 <div className="flex flex-col items-center justify-center p-4">
   <div className="text-center">
     <h1 className="dark:text-white dark:bg-black text-black text-4xl font-bold">Marli Simpson</h1>
-    <p className="dark:text-white dark:bg-black-white mt-2 text-xl mb-10 text-black ">Software Engineer</p>
+    <p className="dark:text-white dark:bg-black-white mt-2 text-xl mb-10 text-black ">Software Developer</p>
 
     {/* Home and Las Vegas, NV on a single line */}
     <div className="flex justify-center items-center mb-8 text-black dark:text-white dark:bg-black px-2">

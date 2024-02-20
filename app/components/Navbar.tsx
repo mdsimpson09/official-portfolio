@@ -36,7 +36,7 @@ const Navbar = () => {
           </button>
         </div>
 
-      <ul className={`absolute top-0 right-0 mt-12 mr-6 p-6 bg-white shadow-lg rounded-lg ${isOpen ? 'flex' : 'hidden'} flex-col items-center space-y-5`}>
+      <ul className={` text-black absolute top-0 right-0 mt-12 mr-6 p-6 bg-white shadow-lg rounded-lg ${isOpen ? 'flex' : 'hidden'} flex-col items-center space-y-5`}>
         <li>
           <Link href="/">
             <span className="text-lg font-bold cursor-pointer">Home</span>

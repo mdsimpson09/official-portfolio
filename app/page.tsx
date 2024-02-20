@@ -57,12 +57,14 @@ const AboutPage = () => {
       
         <section id="about" className="text-black p-6 bg-pink-200 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-center mb-4">About Me</h2>
-          <p className="text-lg bg-white p-4 rounded-lg shadow-lg ">
+          <div className="text-lg bg-white p-4 rounded-lg shadow-lg ">
+          <p className= "mb-6">
           I'm Marli Simpson, <small>(she/her)</small>, a software engineer based in Las Vegas, Nevada. I graduated from Ball State University in 2013 with a BS in Psychology and Interpersonal Relations and in 2015 with a MA in Counseling Psychology. I am currently a Licensed Professional Counselor in the state of Tennessee and a Clinical Professional Counselor in the state of Nevada. I most recently completed a full-stack software engineering bootcamp with the University of South Florida. I incorporate my understanding of our human behavior, our relationship dynamics, and my attention to detail into my coding experiences. I love to learn and to understand why something is or is not working as planned. It's all about solving the mystery.
           </p>
-          <p> I have lived in several states and have worked in a wide range of environments, which allows me to have the experience to adapt and thrive in any setting. I enjoy collaborating with diverse teams and can easily adapt to working alone when needed. 
+          <p className= "mb-6"> I have lived in several states and have worked in a wide range of environments, which allows me to have the experience to adapt and thrive in any setting. I enjoy collaborating with diverse teams and can easily adapt to working alone when needed. 
           </p>
-          <p >When I'm not coding and learning, you can find me at the gym training jiu-jitsu, scuba diving, or spending time at home with my family or playing video games. I also love to travel as often as possible, so if you can't find me, that's likely why. </p>
+          <p className= "mb-6" >When I'm not coding and learning, you can find me at the gym training jiu-jitsu, scuba diving, or spending time at home with my family or playing video games. I also love to travel as often as possible, so if you can't find me, that's likely why. </p>
+          </div>
         </section>
 
       

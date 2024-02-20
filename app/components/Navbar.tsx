@@ -22,7 +22,7 @@ const Navbar = () => {
   
 
   return (
-    <header className="bg-pink-300 fixed top-0 w-full flex justify-between items-center bg-transparent z-50 p-5">
+    <header className="bg-pink-400 fixed top-0 w-full flex justify-between items-center bg-transparent z-50 p-5">
 
       <div className="switch-box cursor-pointer flex items-center" onClick={toggleTheme} aria-label="Toggle dark/light mode">
         <FaSun className={`text-yellow-800 ${isDarkMode ? 'hidden' : 'block'}`} />

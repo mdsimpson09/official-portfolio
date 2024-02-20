@@ -87,14 +87,19 @@ import { TbBrandNextjs, TbApi } from 'react-icons/tb';
 import { VscJson } from 'react-icons/vsc';
 import { GrHeroku } from 'react-icons/gr';
 import { IoLogoVercel } from "react-icons/io5";
+import { SiCypress } from "react-icons/si";
+import { SiJest } from "react-icons/si";
+import { SiDatagrip } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
 
 
 // Skill names by category
 const skills = {
   frontend: ['HTML', 'CSS', 'Tailwind', 'Javascript', 'React', 'Next', 'JSON', 'Typescript'],
   backend: ['Python', 'Express', 'API Development'],
-  database: ['PostgreSQL', 'MySQL', 'Prisma'],
+  database: ['PostgreSQL', 'MySQL', 'Prisma', 'DataGrip', 'Postman'],
   "frameworks and platforms": ['Flask', 'Node.js', 'Heroku', 'Vercel', 'GitHub'],
+  Testing: ['Jest', 'Cypress'],
 };
 
 // Icon mapping by skill name
@@ -113,11 +118,17 @@ const iconMapping = {
   PostgreSQL: <SiPostgresql />,
   MySQL: <SiMysql />,
   Prisma: <SiPrisma />,
+  DataGrip: <SiDatagrip />,
+  Postman: <SiPostman />,
   Flask: <SiFlask />,
   "Node.js": <FaNodeJs />,
   Heroku: <GrHeroku />,
   Vercel: <IoLogoVercel />,
   GitHub: <FaGithub />,
+  Jest: <SiJest />,
+  Cypress: <SiCypress />
+
+ 
 };
 
 type IconMappingType = {

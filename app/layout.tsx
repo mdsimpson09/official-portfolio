@@ -18,13 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
     {/* <body className={inter.className}> */}
-    <head> 
+    <head className='dark:bg-black dark:text-white'> 
     
     
-    <body className=" justify-center items-center h-screen pt-36">
+    <body className=" dark:bg-black dark:text-white justify-center items-center h-screen pt-36">
       <Navbar />
       
-      <main className=  'h-auto flex flex-col justify-center items-center'>{children}</main>
+      <main className=  ' dark:bg-black dark:text-white h-auto flex flex-col justify-center items-center'>{children}</main>
       </body>
       </head>
   </html>

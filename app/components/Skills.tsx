@@ -130,7 +130,7 @@ const SkillsSection = () => {
     return (
         <div className="mt-10 p-6 bg-white rounded-lg shadow-lg">
         {Object.entries(skills).map(([category, skillNames]) => (
-          <div key={category} className='py-6 px-4 sm:px-6 bg-white shadow-md rounded-md overflow-y-auto hide-scrollbar w-full my-8'>
+          <div key={category} className='text-black py-6 px-4 sm:px-6 bg-white shadow-md rounded-md overflow-y-auto hide-scrollbar w-full my-8'>
             <h3 className="text-xl font-semibold mb-2 capitalize">{category}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {skillNames.map((skillName) => (

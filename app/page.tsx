@@ -22,17 +22,17 @@ const AboutPage = () => {
   return (
     <div className="flex flex-col items-center justify-center p-4 ">
       <div className="text-center">
-        <h1 className="text-4xl font-bold">Marli Simpson</h1>
-        <p className="mt-2 text-xl mb-10">Software Engineer</p>
+        <h1 className="text-4xl text-black font-bold">Marli Simpson</h1>
+        <p className="mt-2 text-xl text-black mb-10">Software Engineer</p>
    
-        <div className="text-center my-8">
+        <div className="text-black text-center my-8">
         <h3>
-          <span className= ''>
+          <span className= 'text-black'>
             {/* Assuming you have a specific icon for Las Vegas, NV */}
             <IoHome /> Las Vegas, NV
           </span>
         </h3>
-        <ul className="resume-contact-list">
+        <ul className="text-black resume-contact-list">
           <Link href='mailto:mdsimpson09@gmail.com'>
           <MdOutlineMail />
           </Link>
@@ -59,7 +59,7 @@ const AboutPage = () => {
 
       <main className="mt-10 w-full ">
       
-        <section id="about" className="p-6 bg-pink-200 rounded-lg shadow-lg">
+        <section id="about" className="text-black p-6 bg-pink-200 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-center mb-4">About Me</h2>
           <p className="text-lg bg-white p-4 rounded-lg shadow-lg">
             Hey there! I'm Marli Simpson, a software engineer based in Las Vegas, Nevada. With a background in Psychology and Counseling, I've found my true passion in coding, where I blend my analytical skills with creativity to build engaging digital experiences. Whether it's diving deep into problem-solving or collaborating on innovative projects, I bring a unique perspective to the tech world. Outside of coding, you'll find me training in jiu-jitsu, exploring underwater worlds through scuba diving, or enjoying video games and travel.
@@ -67,7 +67,7 @@ const AboutPage = () => {
         </section>
 
       
-        <div id="skills" className="mt-10 p-6 bg-pink-200 rounded-lg shadow-lg">
+        <div id="skills" className="text-black mt-10 p-6 bg-pink-200 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold text-center mt-6 -mb-4">My Toolkit</h2>
           <div className="rounded-lg shadow-lg">
            <SkillsSection />
@@ -76,8 +76,8 @@ const AboutPage = () => {
 
 
         
-        <div id="projects" className="mt-10 p-6 bg-pink-200 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-center mt-2 mb-4">Projects</h2>
+        <div id="projects" className="text-black mt-10 p-6 bg-pink-200 rounded-lg shadow-lg">
+        <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Projects</h2>
           <div className="text-lg bg-white p-4 rounded-lg shadow-lg">
           {/* Dynamically render projects list */}
           </div>

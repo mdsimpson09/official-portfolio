@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
+import SkillsSection from "../components/Skills";
 
 
 const Resume: React.FC = () => {
@@ -39,10 +40,10 @@ const Resume: React.FC = () => {
     <div className="text-black mb-10 p-6 bg-pink-200 rounded-lg shadow-lg">
         <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Licenses</h2>
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
-    <p className="dark:text-white dark:bg-black-white mt-2 text-xl text-black font-bold">Licensed Professional Counselor-Mental Health Service Provider</p>
-    <p className="dark:text-white dark:bg-black-white mt-2 text-md mb-6 text-black ">Tennessee</p>
-    <p className="dark:text-white dark:bg-black-white text-xl text-black font-bold">Clinical Professional Counselor</p>
-    <p className="dark:text-white dark:bg-black-white mt-2 mb-2 text-black text-md">Nevada</p>
+    <p className="mt-2 text-xl text-black font-bold">Licensed Professional Counselor-Mental Health Service Provider</p>
+    <p className=" mt-2 text-md mb-6 text-black ">Tennessee</p>
+    <p className="text-xl text-black font-bold">Clinical Professional Counselor</p>
+    <p className=" mt-2 mb-2 text-black text-md">Nevada</p>
     </div>
     </div>
       {/* Education Section */}
@@ -163,19 +164,14 @@ const Resume: React.FC = () => {
       </section>
 
       {/* Skills Section */}
-      <section className="text-black mt-10 p-6 bg-pink-200 rounded-lg shadow-lg">
-        <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Education</h2>
-        <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
-          {/* Example Education Entry */}
-          <div className="mb-4">
-            <h3>INSERT CERTIFICATE HERE - University of South Florida</h3>
-            <p>Remote, March 2023 - May 2024</p>
-            <ul className="list-disc list-inside">
-              <li>Detail about the course</li>
-            </ul>
+      <div id="skills" className="text-black mt-10 p-6 bg-pink-200 rounded-lg shadow-lg">
+        <h2 className="text-2xl font-bold text-center mt-6 -mb-4">My Toolkit</h2>
+          <div className="rounded-lg shadow-lg">
+           <SkillsSection />
           </div>
         </div>
-      </section>
+
+
     </main>
   );
 };

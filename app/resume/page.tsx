@@ -5,12 +5,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import SkillsSection from "../components/Skills";
-
+import Navbar from "../components/Navbar";
+import ContactForm from "../components/Connect";
 
 const Resume: React.FC = () => {
   return (
     <main className="items-center justify-center p-4 w-full">
-      {/* Header Section */}
+      <header> <Navbar /> </header>
       <div className="flex flex-col items-center justify-center p-4">
   <div className="text-center">
     <h1 className="dark:text-white dark:bg-black text-black text-4xl font-bold">Marli Simpson</h1>
@@ -169,10 +170,15 @@ const Resume: React.FC = () => {
           <div className="rounded-lg shadow-lg">
            <SkillsSection />
           </div>
+   
+        </div>
+        <div id="contact" className="mt-10 p-6 bg-neutral-50 rounded-lg">
+          <h2 className="text-2xl font-bold text-center mb-4">Let's Connect</h2>
+          <ContactForm />
         </div>
 
-
     </main>
+    
   );
 };
 

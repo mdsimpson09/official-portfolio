@@ -47,6 +47,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link href="/resume">
+            <span className="text-lg font-bold cursor-pointer">Resume</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="#about">
+            <span className="text-lg font-bold cursor-pointer">About Me</span>
+          </Link>
+        </li>
+        <li>
           <Link href="#skills">
             <span className="text-lg font-bold cursor-pointer">My Toolkit</span>
           </Link>

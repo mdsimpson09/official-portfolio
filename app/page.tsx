@@ -8,7 +8,8 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import SkillsSection from './components/Skills';
-
+import Navbar from "./components/NavbarMain";
+import ContactForm from './components/Connect';
 
 
 const AboutPage = () => {
@@ -20,16 +21,19 @@ const AboutPage = () => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
   return (
+  <div>
+    <header> <Navbar /></header>
+    
 <div className="flex flex-col items-center justify-center p-4">
   <div className="text-center">
     <h1 className="dark:text-white dark:bg-black text-black text-4xl font-bold">Marli Simpson</h1>
-    <p className="dark:text-white dark:bg-black-white mt-2 text-xl mb-10 text-black ">Software Developer</p>
+    <p className="dark:text-white dark:bg-black-white mt-2 text-xl mb-10 text-black ">Full-Stack Software Developer</p>
 
     {/* Home and Las Vegas, NV on a single line */}
     <div className="flex justify-center items-center mb-8 text-black dark:text-white dark:bg-black px-2">
       <IoHome className="text-current" /> <span>Las Vegas, NV</span>
     </div>
-
+</div>
     {/* Icons in a single line */}
     <div className="flex justify-center items-center gap-4 text-black dark:text-white dark:bg-black">
       <Link href='mailto:mdsimpson09@gmail.com'>
@@ -84,9 +88,9 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div id="contact" className="mt-10 p-6 bg-white rounded-lg shadow-lg">
+        <div id="contact" className="mt-10 p-6 bg-neutral-50 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-center mb-4">Let's Connect</h2>
-          {/* Contact form or information */}
+          <ContactForm />
         </div>
       </main>
     </div>

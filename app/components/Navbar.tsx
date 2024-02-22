@@ -52,11 +52,6 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="#projects">
-            <span className="text-lg font-bold cursor-pointer">Projects</span>
-          </Link>
-        </li>
-        <li>
           <Link href="#contact">
             <span className="text-lg font-bold cursor-pointer">Connect with me</span>
           </Link>

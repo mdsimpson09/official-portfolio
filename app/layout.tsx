@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 
@@ -19,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
     {/* <body className={inter.className}> */}
     <head className='bg-neutral-50 dark:bg-black dark:text-white'> 
-    
+   
+{/*  */}
+
     
     <body className=" bg-neutral-50 dark:bg-black dark:text-white justify-center items-center h-screen pt-36">
     

@@ -46,15 +46,15 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm: React.FC = () => {
-  const [state, handleSubmit] = useForm("mjvnrvgj"); // Replace "yourFormspreeFormID" with your actual Formspree form ID
+  const [state, handleSubmit] = useForm("mjvnrvgj"); 
   if (state.succeeded) {
-    return <p className="text-lg font-semibold text-center text-green-500">Thanks for contacting us!</p>;
+    return <p className="text-lg font-semibold text-center text-green-500">Thanks for contacting me! I look forward to connecting with you!</p>;
   }
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col space-y-4 bg-pink-200 p-6 rounded-lg shadow-lg">
       <legend className="text-lg font-medium text-gray-700 mb-4">
-        <em>* Please fill out all of the fields below:</em>
+        <h1 className='text black text-2xl font-bold text-center mt-2 mb-4'>Contact Me</h1>
       </legend>
 
       <div className="formItem">

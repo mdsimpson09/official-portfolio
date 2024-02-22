@@ -16,7 +16,15 @@ const AboutPage = () => {
 
   const router = useRouter();
 
-  // Function to handle navigation programmatically
+  const navigateToLink = (url: string | null) => {
+    if (url) {
+      window.open(url, '_blank');
+    } else {
+  
+      console.log("This service is not linked.");
+    }
+  };
+  
   const handleNavigation = (url?: string) => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
@@ -27,37 +35,38 @@ const AboutPage = () => {
 <div className="flex flex-col items-center justify-center p-4">
   <div className="text-center">
     <h1 className="dark:text-white dark:bg-black text-black text-4xl font-bold">Marli Simpson</h1>
-    <p className="dark:text-white dark:bg-black-white mt-2 text-xl mb-10 text-black ">Full-Stack Software Developer</p>
+    <p className="dark:text-white dark:bg-black-white mt-4 mb-6 text-xl text-black ">Full-Stack Software Developer</p>
 
-    {/* Home and Las Vegas, NV on a single line */}
-    <div className="flex justify-center items-center mb-8 text-black dark:text-white dark:bg-black px-2">
+  
+    <div className="flex justify-center items-center mt-2 mb-2 text-black dark:text-white dark:bg-black px-2">
       <IoHome className="text-current" /> <span>Las Vegas, NV</span>
     </div>
 </div>
-    {/* Icons in a single line */}
-    <div className="flex justify-center items-center gap-4 text-black dark:text-white dark:bg-black">
-      <Link href='mailto:mdsimpson09@gmail.com'>
-        <MdOutlineMail className="cursor-pointer" />
-      </Link>
-      <Link href='https://www.linkedin.com/in/marli-simpson-lpc-mhsp-cpc/'>
-        <FaLinkedin className="cursor-pointer" />
-      </Link>
-      <Link href='https://github.com/mdsimpson09'>
-        <FaGithub className="cursor-pointer" />
-      </Link>
-      </div>
 
-        <div className="mt-4">
-          <Link href="#about" aria-label="Scroll to About Section">
-            <i className="fas fa-arrow-down animate-bounce" style={{ cursor: 'pointer' }}></i>
-          </Link>
-        </div>
-      </div>
+    <div>
+<ul className="flex justify-center items-center list-none p-0 mt-8 mb-28">
+  <li className="mr-4" onClick={() => navigateToLink('mailto:mdsimpson09@gmail.com')}>
+    <div className="flex items-center justify-center bg-purple-600 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
+      <MdOutlineMail className="text-white text-2xl"/>
+    </div>
+  </li>
+  <li className="mr-4" onClick={() => navigateToLink('https://www.linkedin.com/in/marli-simpson-lpc-mhsp-cpc/')}>
+    <div className="flex items-center justify-center bg-blue-600 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
+      <FaLinkedin className="text-white text-2xl" />
+    </div>
+  </li>
+  <li onClick={() => navigateToLink('https://github.com/mdsimpson09')}>
+    <div className="flex items-center justify-center bg-gray-900 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
+      <FaGithub className="text-white text-2xl" />
+    </div>
+  </li>
+</ul>
+</div>
+</div>
 
 
 
-
-      <main className="mt-10 w-full ">
+      <main className=" w-full ">
       
         <section id="about" className="text-black p-6 bg-pink-200 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-center mb-4">About Me</h2>
@@ -89,7 +98,7 @@ const AboutPage = () => {
         </div>
 
         <div id="contact" className="mt-10 p-6 bg-neutral-50 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold text-center mb-4">Let's Connect</h2>
+          
           <ContactForm />
         </div>
       </main>

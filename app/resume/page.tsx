@@ -26,8 +26,8 @@ const Resume: React.FC = () => {
     {/* Photo by Scott Webb on Unsplash */}
     <img src="/images/background4.jpg" alt="Background" className="-mt-52 opacity-90 w-full h-[500px] object-cover" />
         <div className="absolute -top-0 left-0 w-full h-[500px] flex flex-col items-center justify-center text-center">
-          <h1 className="text-white text-8xl font-bold green-outline">Marli Simpson</h1>
-          <p className="text-white font-bold green-outline text-4xl sm:text-6xl md:text-7xl lg:text-8xl">Full-Stack Software Developer</p>
+          <h1 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold green-outline">Marli Simpson</h1>
+          <p className="text-white mt-4 mb-6 text-xl sm:text-2xl md:text-3xl green-outline">Full-Stack Software Developer</p>
           <div className="flex justify-center items-center mt-2 mb-2 text-black dark:text-white">
 
 <ul className="flex justify-center items-center list-none p-0 -mt-2 mb-28">
@@ -54,7 +54,7 @@ const Resume: React.FC = () => {
 <div className="bg-neutral-100 h-20 dark:bg-black"></div>
 
 <main className="items-center justify-center p-8 w-full">
-    <div className="-mt-20 text-black mb-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
+    <div className="-mt-20text-black mb-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
         <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Licenses</h2>
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
     <p className="mt-2 text-xl text-black font-bold">Licensed Professional Counselor-Mental Health Service Provider</p>

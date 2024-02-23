@@ -43,17 +43,17 @@ const Navbar = () => {
         <ul className={`absolute top-0 right-0 mt-12 mr-6 p-6 bg-emerald-700 shadow-lg rounded-lg ${isOpen ? 'flex' : 'hidden'} flex-col items-start space-y-5`}>
           <li className="hover:underline decoration-emerald-200">
             <Link href="/">
-              <span className="text-lg text-white font-bold cursor-pointer">Home</span>
+              <span className="text-lg text-white cursor-pointer">Home</span>
             </Link>
           </li>
           <li className="hover:underline text-white  decoration-emerald-200">
             <Link href="#skills">
-              <span className="text-lg font-bold cursor-pointer">My Toolkit</span>
+              <span className="text-lg cursor-pointer">My Toolkit</span>
             </Link>
           </li>
           <li className="hover:underline text-white  decoration-emerald-200">
             <Link href="#contact">
-              <span className="text-lg font-bold cursor-pointer">Connect with me</span>
+              <span className="text-lg cursor-pointer">Connect with me</span>
             </Link>
           </li>
         </ul>

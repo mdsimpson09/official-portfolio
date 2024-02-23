@@ -49,14 +49,21 @@ ul{
 .top h1{
   font-size: 3rem;
 }
-/* .button {
+button {
   font-family: 'Gothic A1', sans-serif;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 3px;
-} */
+  
+}
 
 /* h4{
   font-family: 'Zen Maru Gothic', sans-serif;
+} */
+
+.green-outline {
+  text-shadow: 0 0 5px #246024, 0 0 5px #246024, 0 0 5px #246024, 0 0 5px #246024;
+}
+/* .green-outline {
+  text-shadow: 0 0 8px #052100, 0 0 8px #052100, 0 0 8px #052100, 0 0 8px #052100;
 } */

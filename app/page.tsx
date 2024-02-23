@@ -33,11 +33,11 @@ const AboutPage = () => {
     <header> <Navbar /></header>
     
     <div className="relative pt-16"> 
- {/* Photo by Scott Webb on Unsplash */}
-        <img src="/images/background.jpg" alt="Background" className="-mt-52 opacity-90 w-full h-[600px] object-cover" />
+ {/* Photo by Shahid Hafiz on Unsplash */}
+        <img src="/images/background4.jpg" alt="Background" className="-mt-52 opacity-90 w-full h-[500px] object-cover" />
         <div className="absolute -top-0 left-0 w-full h-[500px] flex flex-col items-center justify-center text-center">
-          <h1 className="text-white text-6xl font-bold green-outline">Marli Simpson</h1>
-          <p className="text-white mt-4 mb-6 text-2xl">Full-Stack Software Developer</p>
+          <h1 className="text-white text-8xl font-bold green-outline">Marli Simpson</h1>
+          <p className="text-white mt-4 mb-6 text-3xl green-outline">Full-Stack Software Developer</p>
           <div className="flex justify-center items-center mt-2 mb-2 text-black dark:text-white">
 
 <ul className="flex justify-center items-center list-none p-0 -mt-2 mb-28">
@@ -62,11 +62,11 @@ const AboutPage = () => {
 </div>
 
 
-  <div className="bg-neutral-100 h-20"></div>
+<div className="bg-neutral-100 h-20 dark:bg-black"></div>
 
       <main className="items-center justify-center p-8 w-full dark:bg-black">
       
-        <section id="about" className="text-black p-6 bg-emerald-100 rounded-lg shadow-lg">
+        <section id="about" className="text-black p-6 bg-emerald-100 rounded-lg shadow-lg -mt-20">
           <h2 className="text-2xl font-bold text-center mb-4">About Me</h2>
           <div className="text-lg bg-white p-4 rounded-lg shadow-lg ">
           <p className= "mb-6">

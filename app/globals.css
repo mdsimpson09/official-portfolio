@@ -40,7 +40,15 @@ h1, h2{
   font-weight: 400;
   text-transform: uppercase;
 }
+ul{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
 
+.top h1{
+  font-size: 3rem;
+}
 /* .button {
   font-family: 'Gothic A1', sans-serif;
   font-weight: 600;

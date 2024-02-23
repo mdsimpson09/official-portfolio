@@ -19,44 +19,42 @@ const Resume: React.FC = () => {
   };
 
   return (
-    <main className="items-center justify-center p-4 w-full">
+ <div>
       <header> <Navbar /> </header>
       
-      <div className="flex flex-col items-center justify-center p-4">
-  <div className="text-center">
-    <h1 className="dark:text-white dark:bg-black text-black text-4xl font-bold">Marli Simpson</h1>
-    <p className="dark:text-white dark:bg-black-white mt-4 text-xl text-black ">Full-Stack Software Developer</p>
+      <div className="relative pt-16"> 
+    {/* Photo by Scott Webb on Unsplash */}
+        <img src="/images/background.jpg" alt="Background" className="-mt-64 opacity-90 w-full h-[600px] object-cover" />
+        <div className="absolute -top-0 left-0 w-full h-[500px] flex flex-col items-center justify-center text-center">
+          <h1 className="text-white text-6xl font-bold green-outline">Marli Simpson</h1>
+          <p className="text-white mt-4 mb-6 text-2xl">Full-Stack Software Developer</p>
+          <div className="flex justify-center items-center mt-2 mb-2 text-black dark:text-white">
+
+<ul className="flex justify-center items-center list-none p-0 -mt-2 mb-28">
+  <li className="mr-4" onClick={() => navigateToLink('mailto:mdsimpson09@gmail.com')}>
+    <div className="flex items-center justify-center bg-purple-600 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
+      <MdOutlineMail className="text-white text-2xl"/>
+    </div>
+  </li>
+  <li className="mr-4" onClick={() => navigateToLink('https://www.linkedin.com/in/marli-simpson-lpc-mhsp-cpc/')}>
+    <div className="flex items-center justify-center bg-blue-600 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
+      <FaLinkedin className="text-white text-2xl" />
+    </div>
+  </li>
+  <li onClick={() => navigateToLink('https://github.com/mdsimpson09')}>
+    <div className="flex items-center justify-center bg-gray-900 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
+      <FaGithub className="text-white text-2xl" />
+    </div>
+    </li>
+  </ul>
 </div>
 </div>
+</div>
 
- 
-    <div className="flex justify-center items-center mt-2 mb-4 text-black dark:text-white dark:bg-black px-2">
-      <span>Las Vegas, NV</span>
-    </div>
+<div className="bg-neutral-100 h-20"></div>
 
-
-    <div>
-
-      <ul className="flex justify-center items-center list-none p-0 mt-10 mb-28">
-        <li className="mr-4" onClick={() => navigateToLink('mailto:mdsimpson09@gmail.com')}>
-          <div className="flex items-center justify-center bg-purple-600 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
-            <MdOutlineMail className="text-white text-2xl"/>
-          </div>
-        </li>
-        <li className="mr-4" onClick={() => navigateToLink('https://www.linkedin.com/in/marli-simpson-lpc-mhsp-cpc/')}>
-          <div className="flex items-center justify-center bg-blue-600 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
-            <FaLinkedin className="text-white text-2xl" />
-          </div>
-        </li>
-        <li onClick={() => navigateToLink('https://github.com/mdsimpson09')}>
-          <div className="flex items-center justify-center bg-gray-900 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
-            <FaGithub className="text-white text-2xl" />
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <div className="text-black mb-10 p-6 bg-pink-200 rounded-lg shadow-lg">
+<main className="items-center justify-center p-8 w-full">
+    <div className="text-black mb-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
         <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Licenses</h2>
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
     <p className="mt-2 text-xl text-black font-bold">Licensed Professional Counselor-Mental Health Service Provider</p>
@@ -66,7 +64,7 @@ const Resume: React.FC = () => {
     </div>
     </div>
       {/* Education Section */}
-      <section className="text-black mt-2 p-6 bg-pink-200 rounded-lg shadow-lg">
+      <section className="text-black mt-2 p-6 bg-emerald-100 rounded-lg shadow-lg">
         <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Education</h2>
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
           {/* Example Education Entry */}
@@ -86,13 +84,13 @@ const Resume: React.FC = () => {
 
             <h3 className= 'font-bold'>BS in Psychology and Interpersonal Relations</h3>
             <h2> Ball State University </h2>
-            <p>Aug 2009 - May 2013</p>
+            <p>Aug 1009 - May 2013</p>
           </div>
         </div>
       </section>
 
       {/* Professional Experience Section */}
-      <section className="text-black mt-10 p-6 bg-pink-200 rounded-lg shadow-lg">
+      <section className="text-black mt-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
         <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Professional Experience</h2>
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
           {/* Example Education Entry */}
@@ -109,10 +107,10 @@ const Resume: React.FC = () => {
               clients to address various areas of need related to mood disorders, eating disorders, addiction and substance abuse, experiences
               of trauma, relationships, life-transitions, grief and loss, socioeconomic stress, diversity and identity issues, respond to crises as
               needed, consult with other therapists at the center.</p>
-              <div className="border-b-2 border-dashed border-pink-300 my-8"></div>
+              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
 
               <h3 className= 'font-bold mt-2'>Admissions Counselor</h3>
-            <h2>Rolling Hills Hospital</h2>
+            <h3>Rolling Hills Hospital</h3>
             <p>March 2018 - March 2020</p>
           
               <p className='mt-2'>Rolling Hill Hospital, in Franklin, Tennessee, is a hospital focusing on mental health and substance abuse treatment. They offer inpatient and outpatient services.</p>
@@ -124,7 +122,7 @@ const Resume: React.FC = () => {
               on a voluntarily or involuntary basis. Assist patients and their families in the transition from the admissions department to the
               specific inpatient unit or with outpatient referrals. Complete pre-authorizations with insurance companies prior to patient’s
               admission into the hospital. Assist other units as needed and respond to various codes throughout the hospital.</p>
-              <div className="border-b-2 border-dashed border-pink-300 my-8"></div>
+              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
             
 
             <h3 className= 'font-bold mt-2'>Case Manager and Children&apos;s Program Manager</h3>
@@ -139,7 +137,7 @@ const Resume: React.FC = () => {
               Facilitate individual case management and parenting sessions, and co-facilitate a dialectical-behavioral therapy group and co-
               facilitate children&apos;s support/prevention groups. Manage quarterly and yearly reports for the grants funding the Children&apos;s
               Program. Participate in DCS and infant mental health court cases and community organizations.</p>
-              <div className="border-b-2 border-dashed border-pink-300 my-8"></div>
+              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
             
 
 
@@ -152,7 +150,7 @@ const Resume: React.FC = () => {
               <p>Assist in risk assessment, crisis intervention, deescalation, and supportive counseling with inmates currently incarcerated with the Davidson
               County Sheriff Office. Provide on-call coverage in order to advise nursing and medical staff on mental health decisions during
               overnight hours.</p>
-              <div className="border-b-2 border-dashed border-pink-300 my-8"></div>
+              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
 
             <h3 className= 'font-bold mt-2'>Crisis Counselor, PRN</h3>
             <h3>Mental Health Cooperative</h3>
@@ -162,7 +160,7 @@ const Resume: React.FC = () => {
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
               <p>Respond to Crisis situations within the community or county jails to conduct crisis assessments and intervention services to appropriately address the needs of the consumer. If hospitalization is necessary, make appropriate referrals</p>
-              <div className="border-b-2 border-dashed border-pink-300 my-8"></div>
+              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
             
 
             <h3 className= 'font-bold mt-2'>Adult Outpatient and Addictions Therapist</h3>
@@ -183,7 +181,7 @@ const Resume: React.FC = () => {
       </section>
 
       {/* Skills Section */}
-      <div id="skills" className="text-black mt-10 p-6 bg-pink-200 rounded-lg shadow-lg">
+      <div id="skills" className="text-black mt-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold text-center mt-6 -mb-4">My Toolkit</h2>
           <div className="rounded-lg shadow-lg">
            <SkillsSection />
@@ -196,6 +194,7 @@ const Resume: React.FC = () => {
         </div>
 
     </main>
+    </div>
     
   );
 };

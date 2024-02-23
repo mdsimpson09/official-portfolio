@@ -31,16 +31,33 @@ const Navbar = () => {
       </div>
 
       <nav className="bg-transparent">
-        <div className="flex justify-end dark:text-white ">
+        <div className="flex justify-end dark:text-white z-50">
           <button onClick={toggleMenu} className="z-50 flex flex-col space-y-2">
-            {/* Hamburger Icon */}
+     
             <span className={`block w-8 h-0.5 bg-black ${isOpen ? 'transform rotate-45 translate-y-2.5' : ''}`}></span>
             <span className={`block w-8 h-0.5 bg-black ${isOpen ? 'opacity-0' : ''}`}></span>
             <span className={`block w-8 h-0.5 bg-black  ${isOpen ? 'transform -rotate-45 -translate-y-2.5' : ''}`}></span>
           </button>
         </div>
 
-      <ul className={` text-black absolute top-0 right-0 mt-12 mr-6 p-6 bg-white shadow-lg rounded-lg dark:bg-black dark:outline ${isOpen ? 'flex' : 'hidden'} flex-col items-center space-y-5 dark:text-white`}>
+        <ul className={`absolute top-0 right-0 mt-12 mr-6 p-6 bg-emerald-700 shadow-lg rounded-lg ${isOpen ? 'flex' : 'hidden'} flex-col items-start space-y-5`}>
+          <li className="hover:underline decoration-emerald-200">
+            <Link href="/">
+              <span className="text-lg text-white font-bold cursor-pointer">Home</span>
+            </Link>
+          </li>
+          <li className="hover:underline text-white  decoration-emerald-200">
+            <Link href="#skills">
+              <span className="text-lg font-bold cursor-pointer">My Toolkit</span>
+            </Link>
+          </li>
+          <li className="hover:underline text-white  decoration-emerald-200">
+            <Link href="#contact">
+              <span className="text-lg font-bold cursor-pointer">Connect with me</span>
+            </Link>
+          </li>
+        </ul>
+      {/* <ul className={` text-black absolute top-0 right-0 mt-12 mr-6 p-6 bg-white shadow-lg rounded-lg dark:bg-black dark:outline ${isOpen ? 'flex' : 'hidden'} flex-col items-center space-y-5 dark:text-white`}>
         <li>
           <Link href="/">
             <span className="text-lg font-bold cursor-pointer">Home</span>
@@ -56,7 +73,7 @@ const Navbar = () => {
             <span className="text-lg font-bold cursor-pointer">Connect with me</span>
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </nav>
      </header>
   );

@@ -55,7 +55,7 @@ const Resume: React.FC = () => {
 
 <main className="items-center justify-center p-8 w-full">
     <div className="-mt-20text-black mb-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
-        <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Licenses</h2>
+        <h2 className="text-black text-2xl font-bold text-center mt-2 mb-4">Licenses</h2>
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
     <p className="mt-2 text-xl text-black font-bold">Licensed Professional Counselor-Mental Health Service Provider</p>
     <p className=" mt-2 text-md mb-6 text-black ">Tennessee</p>

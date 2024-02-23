@@ -36,8 +36,8 @@ const AboutPage = () => {
  {/* Photo by Shahid Hafiz on Unsplash */}
         <img src="/images/background4.jpg" alt="Background" className="-mt-52 opacity-90 w-full h-[500px] object-cover" />
         <div className="absolute -top-0 left-0 w-full h-[500px] flex flex-col items-center justify-center text-center">
-          <h1 className="text-white text-8xl font-bold green-outline">Marli Simpson</h1>
-          <p className="text-white mt-4 mb-6 text-3xl green-outline">Full-Stack Software Developer</p>
+        <h1 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold green-outline">Marli Simpson</h1>
+          <p className="text-white mt-4 mb-6 text-xl sm:text-2xl md:text-3xl green-outline">Full-Stack Software Developer</p>
           <div className="flex justify-center items-center mt-2 mb-2 text-black dark:text-white">
 
 <ul className="flex justify-center items-center list-none p-0 -mt-2 mb-28">

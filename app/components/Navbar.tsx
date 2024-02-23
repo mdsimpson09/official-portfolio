@@ -24,11 +24,13 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 w-full flex justify-between items-center bg-transparent z-50 p-5">
 
-      <div className="switch-box cursor-pointer flex items-center" onClick={toggleTheme} aria-label="Toggle dark/light mode">
-        <FaSun className={`text-yellow-800 ${isDarkMode ? 'hidden' : 'block'}`} />
-        <div className={`switch-btn mx-2 w-8 h-4 bg-gray-300 rounded-full ${isDarkMode ? 'bg-blue-600' : 'bg-gray-300 dark:text-white'}`}></div>
-        <FaMoon className={`text-gray-700 ${isDarkMode ? 'block' : 'hidden'}`} />
+      
+   <div className="switch-box cursor-pointer flex items-center" onClick={toggleTheme} aria-label="Toggle dark/light mode">
+        <FaSun className={`text-yellow-600 text-xl ${isDarkMode ? 'hidden' : 'block'}`} />
+        <div className={`switch-btn mx-2 w-8 h-4 bg-neutral-100 rounded-full ${isDarkMode ? 'bg-blue-600' : 'bg-gray-300 dark:text-white'}`}></div>
+        <FaMoon className={`text-gray-700 text-xl ${isDarkMode ? 'block' : 'hidden'}`} />
       </div>
+
 
       <nav className="bg-transparent">
         <div className="flex justify-end dark:text-white z-50">

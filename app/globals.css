@@ -67,3 +67,15 @@ button {
 /* .green-outline {
   text-shadow: 0 0 8px #052100, 0 0 8px #052100, 0 0 8px #052100, 0 0 8px #052100;
 } */
+
+/* .white-outline{
+  text-shadow: 0 0 1px #5c8d5c, 0 0 1px #246024, 0 0 1px #246024, 0 0 1px #246024;
+} */
+
+.color-outline{
+  text-shadow: 0 0 1px #057b4a, 0 0 1px #057b4a, 0 0 1px #057b4a, 0 0 1px #1e9362;
+} 
+
+.white-outline{
+  text-shadow: 0 0 1px #40a87c, 0 0 1px #40a87c, 0 0 1px #40a87c, 0 0 1px #40a87c;
+} 

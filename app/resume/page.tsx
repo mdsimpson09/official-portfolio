@@ -51,12 +51,13 @@ const Resume: React.FC = () => {
 </div>
 </div>
 
-<div className="bg-neutral-100 h-20 dark:bg-black"></div>
+<div className="bg-neutral-200 h-20 dark:bg-black"></div>
 
 <main className="items-center justify-center p-8 w-full">
-    <div className="-mt-20text-black mb-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
-        <h2 className="text-black text-2xl font-bold text-center mt-2 mb-4">Licenses</h2>
+    <div className="-mt-20 text-black mb-10 p-6 bg-emerald-600 rounded-lg shadow-lg">
+    
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
+        <h2 className='text-black font-bold text-2xl mb-8 white-outline'>Licenses</h2>
     <p className="mt-2 text-xl text-black font-bold">Licensed Professional Counselor-Mental Health Service Provider</p>
     <p className=" mt-2 text-md mb-6 text-black ">Tennessee</p>
     <p className="text-xl text-black font-bold">Clinical Professional Counselor</p>
@@ -64,12 +65,11 @@ const Resume: React.FC = () => {
     </div>
     </div>
       {/* Education Section */}
-      <section className="text-black mt-2 p-6 bg-emerald-100 rounded-lg shadow-lg">
-        <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Education</h2>
+      <section className="text-black mt-2 p-6 bg-emerald-600 rounded-lg shadow-lg">
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
           {/* Example Education Entry */}
           <div className="mb-4">
-
+           <h2 className='text-black font-bold text-2xl mb-10 white-outline'>Educational Experience</h2>
             <h3 className= 'font-bold mt-2'>INSERT CERTIFICATE HERE</h3>
             <h2> University of South Florida</h2>
             <p>March 2023 - May 2024</p>
@@ -90,12 +90,12 @@ const Resume: React.FC = () => {
       </section>
 
       {/* Professional Experience Section */}
-      <section className="text-black mt-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
-        <h2 className="text black text-2xl font-bold text-center mt-2 mb-4">Professional Experience</h2>
+      <section className="text-black mt-10 p-6 bg-emerald-600 rounded-lg shadow-lg">
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
           {/* Example Education Entry */}
           <div className="mb-4">
            
+          <h2 className='text-black font-bold text-2xl mb-10 white-outline'>Professional Experience</h2>
           <h3 className= 'font-bold mt-2'>Licensed Professional Counselor and Team Lead Supervisor</h3>
             <h3>Nashville Collaborative Counseling Center</h3>
             <p>October 2020 - Present</p>
@@ -181,18 +181,19 @@ const Resume: React.FC = () => {
       </section>
 
       {/* Skills Section */}
-      <div id="skills" className="text-black mt-10 p-6 bg-emerald-100 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-center mt-6 -mb-4">My Toolkit</h2>
+      <div id="skills" className="text-black mt-10 p-6 bg-emerald-600 rounded-lg shadow-lg">
+      
           <div className="rounded-lg shadow-lg">
+            
            <SkillsSection />
           </div>
    
-        </div>
-        <div id="contact" className="mt-10 p-6 bg-neutral-50 rounded-lg ">
-          
-          <ContactForm />
-        </div>
-
+        </div>          
+        <div className= "bg-emerald-600 p-6 rounded-lg shadow-lg mt-11">
+        
+        <ContactForm />
+      </div>
+  
     </main>
     </div>
     

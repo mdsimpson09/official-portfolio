@@ -70,7 +70,7 @@ const Resume: React.FC = () => {
           {/* Example Education Entry */}
           <div className="mb-4">
            <h2 className='text-black font-bold text-2xl mb-10 white-outline'>Educational Experience</h2>
-            <h3 className= 'font-bold mt-2'>INSERT CERTIFICATE HERE</h3>
+            <h3 className= 'font-bold mt-2'>Software Engineering Career Track</h3>
             <h2> University of South Florida</h2>
             <p>March 2023 - May 2024</p>
            

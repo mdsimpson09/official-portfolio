@@ -10,6 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import SkillsSection from './components/Skills';
 import Navbar from "./components/NavbarMain";
 import ContactForm from './components/Connect';
+import Projects from './components/Projects';
 
 
 const AboutPage = () => {
@@ -87,15 +88,11 @@ const AboutPage = () => {
 
 
         
-        <section className="mt-10 text-black p-4 sm:p-6t text-box rounded-lg shadow-lg">
-    
-    <div className="text-lg bg-white p-4 rounded-lg shadow-lg ">
-      <h2 className='text-center text-black font-bold text-xl sm:text-2xl mb-8'>Projects</h2>
-      <p className= "mb-6">
-         
-          </p>
+        <div id="skills" className="text-black mt-10 p-4 text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full">
+    <div className="rounded-lg shadow-lg">
+           <Projects />
           </div>
-        </section>
+        </div>
 
 
         <div className= "text-black text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full p-6 mt-11">

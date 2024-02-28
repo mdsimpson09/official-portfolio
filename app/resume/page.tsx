@@ -108,7 +108,7 @@ const Resume: React.FC = () => {
               clients to address various areas of need related to mood disorders, eating disorders, addiction and substance abuse, experiences
               of trauma, relationships, life-transitions, grief and loss, socioeconomic stress, diversity and identity issues, respond to crises as
               needed, consult with other therapists at the center.</p>
-              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
+              <div className="border-b-2 border-dashed text-box my-8"></div>
 
               <h3 className= 'font-bold mt-2'>Admissions Counselor</h3>
             <h3>Rolling Hills Hospital</h3>
@@ -123,7 +123,7 @@ const Resume: React.FC = () => {
               on a voluntarily or involuntary basis. Assist patients and their families in the transition from the admissions department to the
               specific inpatient unit or with outpatient referrals. Complete pre-authorizations with insurance companies prior to patient’s
               admission into the hospital. Assist other units as needed and respond to various codes throughout the hospital.</p>
-              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
+              <div className="border-b-2 border-dashed text-box my-8"></div>
             
 
             <h3 className= 'font-bold mt-2'>Case Manager and Children&apos;s Program Manager</h3>
@@ -138,7 +138,7 @@ const Resume: React.FC = () => {
               Facilitate individual case management and parenting sessions, and co-facilitate a dialectical-behavioral therapy group and co-
               facilitate children&apos;s support/prevention groups. Manage quarterly and yearly reports for the grants funding the Children&apos;s
               Program. Participate in DCS and infant mental health court cases and community organizations.</p>
-              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
+              <div className="border-b-2 border-dashed text-box my-8"></div>
             
 
 
@@ -151,7 +151,7 @@ const Resume: React.FC = () => {
               <p>Assist in risk assessment, crisis intervention, deescalation, and supportive counseling with inmates currently incarcerated with the Davidson
               County Sheriff Office. Provide on-call coverage in order to advise nursing and medical staff on mental health decisions during
               overnight hours.</p>
-              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
+              <div className="border-b-2 border-dashed text-box my-8"></div>
 
             <h3 className= 'font-bold mt-2'>Crisis Counselor, PRN</h3>
             <h3>Mental Health Cooperative</h3>
@@ -161,7 +161,7 @@ const Resume: React.FC = () => {
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
               <p>Respond to Crisis situations within the community or county jails to conduct crisis assessments and intervention services to appropriately address the needs of the consumer. If hospitalization is necessary, make appropriate referrals</p>
-              <div className="border-b-2 border-dashed border-emerald-300 my-8"></div>
+              <div className="border-b-2 border-dashed text-box my-8"></div>
             
 
             <h3 className= 'font-bold mt-2'>Adult Outpatient and Addictions Therapist</h3>

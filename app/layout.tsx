@@ -24,7 +24,7 @@ export default function RootLayout({
 {/*  */}
 
     
-    <body className=" bg-neutral-200 dark:bg-black dark:text-white justify-center items-center h-screen pt-36">
+    <body className=" background-color dark:bg-black dark:text-white justify-center items-center h-screen pt-36">
     
       
       <main className=  ' dark:bg-black dark:text-white h-auto flex flex-col justify-center items-center'>{children}</main>

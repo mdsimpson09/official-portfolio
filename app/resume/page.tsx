@@ -23,16 +23,16 @@ const Resume: React.FC = () => {
       <header> <Navbar /> </header>
       
       <div className="relative pt-16"> 
-    {/* Photo by Scott Webb on Unsplash */}
-    <img src="/images/background4.jpg" alt="Background" className="-mt-52 opacity-90 w-full h-[500px] object-cover" />
+      {/* Photo by Annie Spratt on Unsplash */}
+        <img src="/images/background8.jpg" alt="Background" className=" photo -mt-52 opacity-90 w-full h-[500px] object-cover" />
         <div className="absolute -top-0 left-0 w-full h-[500px] flex flex-col items-center justify-center text-center">
-          <h1 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold green-outline">Marli Simpson</h1>
-          <p className="text-white mt-4 mb-6 text-xl sm:text-2xl md:text-3xl green-outline">Full-Stack Software Developer</p>
+        <h1 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold ">Marli Simpson</h1>
+          <p className="text-white mt-4 mb-6 text-xl sm:text-2xl md:text-3xl ">Full-Stack Software Developer</p>
           <div className="flex justify-center items-center mt-2 mb-2 text-black dark:text-white">
 
 <ul className="flex justify-center items-center list-none p-0 -mt-2 mb-28">
   <li className="mr-4" onClick={() => navigateToLink('mailto:mdsimpson09@gmail.com')}>
-    <div className="flex items-center justify-center bg-purple-600 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
+    <div className="flex items-center justify-center bg-green-700 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
       <MdOutlineMail className="text-white text-2xl"/>
     </div>
   </li>
@@ -51,13 +51,14 @@ const Resume: React.FC = () => {
 </div>
 </div>
 
-<div className="bg-neutral-200 h-20 dark:bg-black"></div>
+
+<div className="background-color h-20 dark:bg-black "></div>
 
 <main className="items-center justify-center p-8 w-full">
-    <div className="-mt-20 text-black mb-10 p-6 bg-emerald-600 rounded-lg shadow-lg">
+    <div className="-mt-20 text-black mb-10 p-6 text-box rounded-lg shadow-lg">
     
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
-        <h2 className='text-black font-bold text-2xl mb-8 white-outline'>Licenses</h2>
+        <h2 className='text-black font-bold text-2xl mb-8 '>Licenses</h2>
     <p className="mt-2 text-xl text-black font-bold">Licensed Professional Counselor-Mental Health Service Provider</p>
     <p className=" mt-2 text-md mb-6 text-black ">Tennessee</p>
     <p className="text-xl text-black font-bold">Clinical Professional Counselor</p>
@@ -65,11 +66,11 @@ const Resume: React.FC = () => {
     </div>
     </div>
       {/* Education Section */}
-      <section className="text-black mt-2 p-6 bg-emerald-600 rounded-lg shadow-lg">
+      <section className="text-black p-4 text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full">
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
           {/* Example Education Entry */}
           <div className="mb-4">
-           <h2 className='text-black font-bold text-2xl mb-10 white-outline'>Educational Experience</h2>
+           <h2 className='text-black font-bold text-2xl mb-10 '>Educational Experience</h2>
             <h3 className= 'font-bold mt-2'>Software Engineering Career Track</h3>
             <h2> University of South Florida</h2>
             <p>March 2023 - May 2024</p>
@@ -90,12 +91,12 @@ const Resume: React.FC = () => {
       </section>
 
       {/* Professional Experience Section */}
-      <section className="text-black mt-10 p-6 bg-emerald-600 rounded-lg shadow-lg">
+      <section className="text-black mt-10 p-6 text-box rounded-lg shadow-lg">
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
           {/* Example Education Entry */}
           <div className="mb-4">
            
-          <h2 className='text-black font-bold text-2xl mb-10 white-outline'>Professional Experience</h2>
+          <h2 className='text-black font-bold text-2xl mb-10 '>Professional Experience</h2>
           <h3 className= 'font-bold mt-2'>Licensed Professional Counselor and Team Lead Supervisor</h3>
             <h3>Nashville Collaborative Counseling Center</h3>
             <p>October 2020 - Present</p>
@@ -181,15 +182,14 @@ const Resume: React.FC = () => {
       </section>
 
       {/* Skills Section */}
-      <div id="skills" className="text-black mt-10 p-6 bg-emerald-600 rounded-lg shadow-lg">
-      
-          <div className="rounded-lg shadow-lg">
+      <div id="skills" className="text-black mt-10 p-4 text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full">
+    <div className="rounded-lg shadow-lg">
             
            <SkillsSection />
           </div>
    
         </div>          
-        <div className= "bg-emerald-600 p-6 rounded-lg shadow-lg mt-11">
+        <div className= "text-black text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full p-6 mt-11">
         
         <ContactForm />
       </div>

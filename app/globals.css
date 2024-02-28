@@ -79,3 +79,29 @@ button {
 .white-outline{
   text-shadow: 0 0 1px #40a87c, 0 0 1px #40a87c, 0 0 1px #40a87c, 0 0 1px #40a87c;
 } 
+
+.border-color{
+  background: rgb(255, 249, 232);
+}
+
+/* .background-color {
+  background: rgb(247, 229, 232);
+} */
+
+.background-color {
+  background: rgb(255, 255, 255);
+}
+
+/* .photo{
+  border-bottom: rgb(113, 170, 109) 10px solid;
+} */
+/* .text-box{
+  background: rgb(113, 170, 109);
+} */
+
+/* .text-box{
+  background: rgb(129, 183, 125);
+} */
+.text-box{
+  background: rgb(129, 175, 125);
+}

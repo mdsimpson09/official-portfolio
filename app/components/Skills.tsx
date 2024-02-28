@@ -58,7 +58,7 @@ type IconMappingType = {
 const SkillsSection = () => {
     return (
         <div className="mt-10 p-6 bg-white rounded-lg shadow-lg">
-            <h2 className='justify-center flex text-black font-bold text-2xl mb-10 white-outline'>My Toolkit</h2>
+            <h2 className='justify-center flex text-black font-bold text-2xl mb-10 '>My Toolkit</h2>
         {Object.entries(skills).map(([category, skillNames]) => (
           <div key={category} className='text-black py-6 px-4 sm:px-6 bg-white shadow-md rounded-md overflow-y-auto hide-scrollbar w-full my-8'>
             <h3 className="text-xl font-semibold mb-2 capitalize">{category}</h3>

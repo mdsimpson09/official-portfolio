@@ -26,8 +26,8 @@ const Resume: React.FC = () => {
       {/* Photo by Annie Spratt on Unsplash */}
         <img src="/images/background8.jpg" alt="Background" className=" photo -mt-52 opacity-90 w-full h-[500px] object-cover" />
         <div className="absolute -top-0 left-0 w-full h-[500px] flex flex-col items-center justify-center text-center">
-        <h1 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold ">Marli Simpson</h1>
-          <p className="text-white mt-4 mb-6 text-xl sm:text-2xl md:text-3xl ">Full-Stack Software Developer</p>
+        <h1 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold" style={{ textShadow: '0.5px 1px 0.5px rgba(0,0,0,0.5)' }}>Marli Simpson</h1>
+          <p className="text-white mt-4 mb-6 text-xl sm:text-2xl md:text-3xl " style={{ textShadow: '0.5px 1px 0.5px rgba(0,0,0,0.5)' }}> Full-Stack Software Developer</p>
           <div className="flex justify-center items-center mt-2 mb-2 text-black dark:text-white">
 
 <ul className="flex justify-center items-center list-none p-0 -mt-2 mb-28">

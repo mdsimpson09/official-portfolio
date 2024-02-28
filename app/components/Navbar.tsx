@@ -26,9 +26,9 @@ const Navbar = () => {
 
       
    <div className="switch-box cursor-pointer flex items-center" onClick={toggleTheme} aria-label="Toggle dark/light mode">
-        <FaSun className={`text-yellow-600 text-xl ${isDarkMode ? 'hidden' : 'block'}`} />
+        <FaSun className={`text-yellow-200 text-2xl ${isDarkMode ? 'hidden' : 'block'}`} />
         <div className={`switch-btn mx-2 w-8 h-4 bg-neutral-100 rounded-full ${isDarkMode ? 'bg-blue-600' : 'bg-gray-300 dark:text-white'}`}></div>
-        <FaMoon className={`text-gray-700 text-xl ${isDarkMode ? 'block' : 'hidden'}`} />
+        <FaMoon className={`text-gray-400 text-xl ${isDarkMode ? 'block' : 'hidden'}`} />
       </div>
 
 

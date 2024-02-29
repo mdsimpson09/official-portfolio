@@ -2,15 +2,23 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { FaSun, FaMoon } from 'react-icons/fa';
+import { useRouter } from 'next/navigation'
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const router = useRouter();
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleLinkClick = (href: string) => {
+    toggleMenu(); 
+    router.push(href); 
+  };
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
     if (!isDarkMode) {
@@ -40,37 +48,44 @@ const Navbar = () => {
           </button>
         </div>
 
-        <ul className={`absolute top-0 right-0 mt-12 mr-6 p-6 bg-emerald-700 shadow-lg rounded-lg ${isOpen ? 'flex' : 'hidden'} flex-col items-start space-y-5`}>
+        <ul className={`absolute top-0 right-0 mt-12 mr-6 p-6 text-box shadow-lg rounded-lg ${isOpen ? 'flex' : 'hidden'} flex-col items-start space-y-5`}>
+
         <li className="hover:underline decoration-emerald-200">
           <Link href="/">
-            <span className="text-lg text-white cursor-pointer">Home</span>
+            <span className="text-lg text-white cursor-pointer" onClick={() => handleLinkClick('/')} >Home</span>
           </Link>
         </li>
+
         <li className="hover:underline decoration-emerald-200">
           <Link href="/resume">
-            <span className="text-lg text-white cursor-pointer">Resume</span>
+            <span className="text-lg text-white cursor-pointer" onClick={() => handleLinkClick('/')}>Resume</span>
           </Link>
         </li>
+
         <li className="hover:underline decoration-emerald-200">
           <Link href="#about">
-            <span className="text-lg text-white cursor-pointer">About Me</span>
+            <span className="text-lg text-white cursor-pointer" onClick={() => handleLinkClick('/')}>About Me</span>
           </Link>
         </li>
+
         <li className="hover:underline decoration-emerald-200">
           <Link href="#skills">
-            <span className="text-lg text-white cursor-pointer">My Toolkit</span>
+            <span className="text-lg text-white cursor-pointer" onClick={() => handleLinkClick('/')}>My Toolkit</span>
           </Link>
         </li>
+
         <li className="hover:underline decoration-emerald-200">
           <Link href="#projects">
-            <span className="text-lg text-white cursor-pointer">Projects</span>
+            <span className="text-lg text-white cursor-pointer" onClick={() => handleLinkClick('/')}>Projects</span>
           </Link>
         </li>
+
         <li className="hover:underline decoration-emerald-200">
           <Link href="#contact">
-            <span className="text-lg text-white cursor-pointer">Connect with me</span>
+            <span className="text-lg text-white cursor-pointer" onClick={() => handleLinkClick('/')}>Connect with me</span>
           </Link>
         </li>
+        
       </ul>
     </nav>
      </header>

@@ -13,7 +13,7 @@ const Resume: React.FC = () => {
     if (url) {
       window.open(url, '_blank');
     } else {
-      // Handle the case where the URL is null (e.g., show a notification or tooltip)
+  
       console.log("This service is not linked.");
     }
   };
@@ -55,22 +55,22 @@ const Resume: React.FC = () => {
 <div className="background-color h-20 dark:bg-black "></div>
 
 <main className="items-center justify-center p-8 w-full">
-    <div className="-mt-20 text-black mb-10 p-6 text-box rounded-lg shadow-lg">
+    <section className="-mt-20 text-black mb-10 p-6 text-box rounded-lg shadow-lg">
     
-        <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
+        <div className="text-center text-lg bg-white p-4 sm:p2 rounded-lg shadow-lg ">
         <h2 className='text-black font-bold text-2xl mb-8 '>Licenses</h2>
-    <p className="mt-2 text-xl text-black font-bold">Licensed Professional Counselor-Mental Health Service Provider</p>
+    <p className="mt-2 text-xl text-black font-bold ">Licensed Professional Counselor-Mental Health Service Provider</p>
     <p className=" mt-2 text-md mb-6 text-black ">Tennessee</p>
     <p className="text-xl text-black font-bold">Clinical Professional Counselor</p>
     <p className=" mt-2 mb-2 text-black text-md">Nevada</p>
     </div>
-    </div>
-      {/* Education Section */}
-      <section className="text-black p-4 text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full">
-        <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
-          {/* Example Education Entry */}
-          <div className="mb-4">
-           <h2 className='text-black font-bold text-2xl mb-10 '>Educational Experience</h2>
+    </section>
+     
+      <section className=" text-black mb-10 p-6 text-box rounded-lg shadow-lg">
+        <div id="education" className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
+         
+          <div  className="mb-4">
+           <h2 className='text-black font-bold text-2xl mb-8' >Educational Experience</h2>
             <h3 className= 'font-bold mt-2'>Software Engineering Career Track</h3>
             <h2> University of South Florida</h2>
             <p>March 2023 - May 2024</p>
@@ -90,10 +90,10 @@ const Resume: React.FC = () => {
         </div>
       </section>
 
-      {/* Professional Experience Section */}
-      <section className="text-black mt-10 p-6 text-box rounded-lg shadow-lg">
+   
+      <section id="professional" className="text-black mt-10 p-6 text-box rounded-lg shadow-lg">
         <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
-          {/* Example Education Entry */}
+        
           <div className="mb-4">
            
           <h2 className='text-black font-bold text-2xl mb-10 '>Professional Experience</h2>
@@ -181,7 +181,7 @@ const Resume: React.FC = () => {
         </div>
       </section>
 
-      {/* Skills Section */}
+   
       <div id="skills" className="text-black mt-10 p-4 text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full">
     <div className="rounded-lg shadow-lg">
             
@@ -189,7 +189,7 @@ const Resume: React.FC = () => {
           </div>
    
         </div>          
-        <div className= "text-black text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full p-6 mt-11">
+        <div id="contact" className= "text-black text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full p-6 mt-11">
         
         <ContactForm />
       </div>

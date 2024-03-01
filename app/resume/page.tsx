@@ -69,8 +69,10 @@ const Resume: React.FC = () => {
     </div>
     </section>
      
-      <section className=" text-black mb-10 p-6 text-box rounded-lg shadow-lg">
-        <div id="education" className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
+      {/* <section className=" text-black mb-10 p-6 text-box rounded-lg shadow-lg"> */}
+      <section id="education" className="text-black p-4 text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full mb-8 ">
+
+        <div id="education" className="text-lg text-center bg-white p-4 rounded-lg shadow-lg">
          
           <div  className="mb-4">
            <h2 className='text-black font-bold text-2xl mb-8' >Educational Experience</h2>
@@ -94,8 +96,11 @@ const Resume: React.FC = () => {
       </section>
 
    
-      <section id="professional" className="text-black mt-10 p-6 text-box rounded-lg shadow-lg">
-        <div className="text-center text-lg bg-white p-4 rounded-lg shadow-lg">
+      {/* <section id="professional" className="text-black mt-10 p-6 text-box rounded-lg shadow-lg"> */}
+
+      <section id="professional" className="text-black p-4 text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full">
+
+        <div className="text-lg text-center bg-white p-4 rounded-lg shadow-lg">
         
           <div className="mb-4">
            

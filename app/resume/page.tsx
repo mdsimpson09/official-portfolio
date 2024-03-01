@@ -53,12 +53,15 @@ const Resume: React.FC = () => {
 
 
 <div className="background-color h-20 dark:bg-black "></div>
-
-<main className="items-center justify-center p-8 w-full">
-    <section className="-mt-20 text-black mb-10 p-6 text-box rounded-lg shadow-lg">
+<main className="flex flex-col items-center justify-center p-4 sm:p-8 w-full dark:bg-black">
+{/* <main className="items-center justify-center p-8 w-full"> */}
+    {/* <section className="-mt-20 text-black mb-10 p-6 text-box rounded-lg shadow-lg"> */}
+    <section className="text-black p-4 text-box rounded-lg shadow-lg items-center justify-center sm:p-8 w-full -mt-20 mb-6">
+    <div className="text-lg text-center bg-white p-4 rounded-lg shadow-lg">
+      <h2 className='text-center text-black font-bold text-xl sm:text-2xl mb-8'>Licenses</h2>
     
-        <div className="text-center text-lg bg-white p-4 sm:p2 rounded-lg shadow-lg ">
-        <h2 className='text-black font-bold text-2xl mb-8 '>Licenses</h2>
+        {/* <div className="text-center text-lg bg-white p-4 sm:p2 rounded-lg shadow-lg ">
+        <h2 className='text-black font-bold text-2xl mb-8 '>Licenses</h2> */}
     <p className="mt-2 text-xl text-black font-bold ">Licensed Professional Counselor-Mental Health Service Provider</p>
     <p className=" mt-2 text-md mb-6 text-black ">Tennessee</p>
     <p className="text-xl text-black font-bold">Clinical Professional Counselor</p>

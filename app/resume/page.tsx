@@ -104,10 +104,12 @@ const Resume: React.FC = () => {
               <p className='mt-2'>Nashville Collaborative Counseling Center began as a start-up group counseling center around 2020 and has grown tremendously. NCCC creates greater access to quality mental healthcare services in Tennessee by tailoring individual counseling to those in need.</p>
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
-              <p>Provide individual outpatient therapy via telehealth to adult clients seeking treatment both in person and via tele-health services, work with
-              clients to address various areas of need related to mood disorders, eating disorders, addiction and substance abuse, experiences
+              <p>Provide individual outpatient therapy via telehealth to adult clients seeking treatment to address various areas of need related to mood disorders, eating disorders, addiction and substance abuse, experiences
               of trauma, relationships, life-transitions, grief and loss, socioeconomic stress, diversity and identity issues, respond to crises as
               needed, consult with other therapists at the center.</p>
+              <p>
+                Supervise and provide clinical oversight for a team therapists at NCCC, including reviewing cases, providing consultation, assisting with treatment planning, and ensuring ethical and professional standards of care are upheld. Run bi-weekly reports for each therapist and assist in leadership meetings 
+              </p>
               <div className="border-b-2 border-dashed text-box my-8"></div>
 
               <h3 className= 'font-bold mt-2'>Admissions Counselor</h3>

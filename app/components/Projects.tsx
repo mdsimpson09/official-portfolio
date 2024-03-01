@@ -1,43 +1,3 @@
-// import React from 'react';
-// import Link from 'next/link';
-
-
-// type Project = {
-//   id: number;
-//   imgSrc: string;
-//   title: string;
-//   description : string;
-//   link : string;
-  
-// };
-
-
-// const projects: Project[] = [
-//   { id: 1, imgSrc: "/images/gamer-date.jpg", title: "Gamer-Date", description: "Next app utilizing Typescript, Tailwind, Prisma, PostgreSQL, and Cypress", link: 'https://github.com/mdsimpson09/gamer-date' },
-//   { id: 2, imgSrc: "/images/tweeter.jpg", title: "Twitter Clone", description: "Python app utilizing Flask and WTForms", link: 'https://github.com/mdsimpson09/twitter-clone' },
-//   { id: 3, imgSrc: "/images/madlibs.jpg", title: "Madlibs", description: "React app utilizing Javascript and Jest", link: 'https://github.com/mdsimpson09/madlibs-react'},
-//   { id: 4, imgSrc: "/path/to/image4.jpg", title: "Project 4", description: "", link: '' },
-// ];
-
-// const ProjectsComponent: React.FC = () => {
-//   return (
-//     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-//       {projects.map((project) => (
-//         <div key={project.id} className="text-lg bg-white p-4 rounded-lg shadow-lg flex flex-col items-center">
-//           <img src={project.imgSrc} alt={project.title} className="w-full h-auto rounded-lg mb-4" />
-//           <h2 className="text-center text-black font-bold text-xl mb-8">{project.title}</h2>
-//           <h4 className="text-center text-black text-xl mb-8">{project.description}</h4>
-//           <button className="mt-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-//             View Repo
-//           </button>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default ProjectsComponent;
-
 import React from 'react';
 import { useRouter } from 'next/navigation' 
 
@@ -51,7 +11,7 @@ type Project = {
   imgSrc: string;
   title: string;
   description: string;
-  links: ProjectLink[]; // Updated to support multiple links
+  links: ProjectLink[]; 
 };
 
 const projects: Project[] = [
@@ -96,11 +56,12 @@ const projects: Project[] = [
   ];
 
 
-
+  <h2 className='justify-center flex text-black font-bold text-2xl mb-10 '>My Toolkit</h2>
 
 
   const ProjectsComponent: React.FC = () => {
     return (
+      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         {projects.map((project) => (
           <div key={project.id} className="text-lg bg-white p-4 rounded-lg shadow-lg flex flex-col items-center">

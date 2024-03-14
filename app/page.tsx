@@ -72,9 +72,12 @@ const AboutPage = () => {
     <div className="text-lg bg-white p-4 rounded-lg shadow-lg">
       <h2 className='text-center text-black font-bold text-xl sm:text-2xl mb-8'>About Me</h2>
       <p className="mb-6">
-          My name is Marli Simpson. I'm a full-stack software developer based in Las Vegas, Nevada. I will graduate, in May 2024, from a full-stack software engineering bootcamp with the University of South Florida. I graduated from Ball State University in 2013 with a BS in Psychology and Interpersonal Relations and in 2015 with a MA in Counseling Psychology. I am currently a Licensed Professional Counselor in the state of Tennessee and a Clinical Professional Counselor in the state of Nevada. 
+          My name is Marli Simpson. I'm a full-stack software developer based in Las Vegas, Nevada. I will graduate, in April 2024, from a full-stack software engineering bootcamp with the University of South Florida. I graduated from Ball State University in 2013 with a BS in Psychology and Interpersonal Relations and in 2015 with a MA in Counseling Psychology. I am currently a Licensed Professional Counselor in the state of Tennessee and a Clinical Professional Counselor in the state of Nevada. 
           </p>
           <p className= "mb-6"> Due to my experiences working in the mental health field, I am able to incorporate my understanding of human behavior, relationship dynamics, and my attention to detail into my coding experiences. I love to learn and to understand why something is or is not working as planned. It's all about solving the mystery. I have also lived in several states and have worked in a wide range of environments, which allows me to have the experience to adapt and thrive in any setting. I enjoy collaborating with diverse teams and can easily adapt to working alone when needed. 
+          </p>
+          <p>
+          I am consistently pushing myself to grow and learn new skills despite any challenges I may face. I am currently a blue belt in Brazilian Jiu Jitsu and began training in April 2019. I also achieved my SDI Open Water Diver Certification in 2023. Throughout these experiences, I have experienced immense personal growth, while improving my critical thinking, problem-solving, mindfulness and stress-management skills.  
           </p>
           </div>
         </section>

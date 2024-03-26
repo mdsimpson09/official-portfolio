@@ -122,7 +122,7 @@ const Resume: React.FC = () => {
 
               <h3 className= 'font-bold mt-2'>Admissions Counselor</h3>
             <h3>Rolling Hills Hospital</h3>
-            <p>March 2018 - March 2020</p>
+            <p>March 2018 - March 2021</p>
           
               <p className='mt-2'>Rolling Hill Hospital, in Franklin, Tennessee, is a hospital focusing on mental health and substance abuse treatment. They offer inpatient and outpatient services.</p>
               <br></br>

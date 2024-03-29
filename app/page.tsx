@@ -47,7 +47,7 @@ const AboutPage = () => {
       <MdOutlineMail className="text-white text-2xl"/>
     </div>
   </li>
-  <li className="mr-4" onClick={() => navigateToLink('https://www.linkedin.com/in/marli-simpson-lpc-mhsp-cpc/')}>
+  <li className="mr-4" onClick={() => navigateToLink('https://www.linkedin.com/in/marli-simpson/')}>
     <div className="flex items-center justify-center bg-blue-600 rounded-lg cursor-pointer" style={{ width: '40px', height: '40px' }}>
       <FaLinkedin className="text-white text-2xl" />
     </div>

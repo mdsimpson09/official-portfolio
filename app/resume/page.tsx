@@ -81,7 +81,9 @@ const Resume: React.FC = () => {
             <p>March 2023 - May 2024</p>
            
               <br />
-              <p>Invested 14 months in a full-stack software engineering bootcamp studying HTML, CSS, Tailwind, JavaScript, APIs, React, Next, Express, Prisma, PostgreSQL, Python, and Flask</p>
+              <p>Over a 14 month period, I completed an intensive full-stack software engineering bootcamp, gaining experience in HTML, CSS, JavaScript, React, Express, Prisma, PostgreSQL, Python, and Flask. Beyond the core curriculum, I proactively expanded my skill set to include Next.js, Prisma, TypeScript, and Cypress, specifically focusing on these advanced tools to develop my capstone project. 
+              My frontend capabilities are well-rounded with proficiency in HTML, CSS (alongside the Tailwind framework), JavaScript, React, Next.js, JSON, and TypeScript. On the backend, I am skilled in Python, Express, and API development, with a strong foundation in database technologies such as PostgreSQL, MySQL, Prisma, and tools like DataGrip and Postman. My experience encompasses working with frameworks and platforms like Flask, Node.js, Heroku, Vercel, and GitHub, ensuring a versatile development and deployment process. Additionally, I have gained testing skills using Jest and Cypress
+            </p>
             <br />
           <h3 className= 'font-bold'>MA Counseling Psychology</h3>
             <h2> Ball State University </h2>

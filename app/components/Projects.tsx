@@ -19,7 +19,7 @@ const projects: Project[] = [
       id: 1,
       imgSrc: "/images/gamer-date.jpg",
       title: "Gamer-Date",
-      description: "Next app utilizing Typescript, Tailwind, Prisma, PostgreSQL, and Cypress",
+      description: "Gamer-Date is a Next.js-based dating and social networking platform for gamers, utilizing TypeScript for type-safe coding and Prisma ORM for efficient database operations with PostgreSQL. It features comprehensive API management through Next.js API Handlers and employs React Icons and Radix UI for a rich user interface, all while ensuring high functionality and reliability with Cypress for end-to-end testing",
       links: [
         { url: 'https://github.com/mdsimpson09/gamer-date', label: 'GitHub Repo' },
        
@@ -30,7 +30,7 @@ const projects: Project[] = [
       id: 2,
       imgSrc: "/images/tweeter.jpg",
       title: "Twitter Clone",
-      description: "Python app utilizing Flask and WTForms",
+      description: "Tweeter is a Flask-based microblogging application, utilizing Python and WTForms, designed for users to share and interact with messages in a Twitter-like environment. It incorporates a PostgreSQL database for data management and employs Flask for both server-side logic and API management, ensuring a dynamic and interactive user experience.",
       links: [
         { url: 'https://github.com/mdsimpson09/twitter-clone', label: 'GitHub Repo' }
       ]
@@ -39,18 +39,18 @@ const projects: Project[] = [
       id: 3,
       imgSrc: "/images/madlibs.jpg",
       title: "Madlibs",
-      description: "React app utilizing Javascript and Jest",
+      description: "Madlibs is a React-based interactive app, utilizing Javascript, designed for users to craft humorous and nonsensical stories by inputting words into templated story options. It leverages React's component-based architecture to offer a dynamic user experience. With a simple and intuitive UI, users can easily create, enjoy, and restart stories, making it a fun and engaging way to learn about parts of speech and storytelling. Testing is done utilizing jest.",
       links: [
         { url: 'https://github.com/mdsimpson09/madlibs-react', label: 'GitHub Repo' }
       ]
     },
     {
       id: 4,
-      imgSrc: "/images/background7.jpg", 
-      title: "coming soon",
-      description: "Description for Project 4.",
+      imgSrc: "/images/starwarsimage.jpg", 
+      title: "Starwarsly",
+      description: "React-based app, utilizing Javascript, that engages users in exploring the Star Wars universe. Incorporates Redux for state management. Testing in the StarWarsly app is conducted using the React Testing Library along with Jest.",
       links: [
-        { url: '', label: 'GitHub Repo' } 
+        { url: 'https://github.com/mdsimpson09/starwarsly', label: 'GitHub Repo' } 
       ]
     },
   ];

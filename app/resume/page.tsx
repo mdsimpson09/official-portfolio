@@ -109,7 +109,6 @@ const Resume: React.FC = () => {
             <h3>Nashville Collaborative Counseling Center</h3>
             <p>October 2020 - Present</p>
               
-              <p className='mt-2'>Nashville Collaborative Counseling Center began as a start-up group counseling center around 2020 and has grown tremendously. NCCC creates greater access to quality mental healthcare services in Tennessee by tailoring individual counseling to those in need.</p>
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
               <p>Provide individual outpatient therapy via telehealth to adult clients seeking treatment to address various areas of need related to mood disorders, eating disorders, addiction and substance abuse, experiences
@@ -124,7 +123,6 @@ const Resume: React.FC = () => {
             <h3>Rolling Hills Hospital</h3>
             <p>March 2018 - March 2021</p>
           
-              <p className='mt-2'>Rolling Hill Hospital, in Franklin, Tennessee, is a hospital focusing on mental health and substance abuse treatment. They offer inpatient and outpatient services.</p>
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
               <p>Review referrals from hospitals, crisis response teams and verify insurance benefits, while working with other team members to
@@ -139,9 +137,6 @@ const Resume: React.FC = () => {
             <h3 className= 'font-bold mt-2'>Case Manager and Children&apos;s Program Manager</h3>
             <h3>Renewal House</h3>
             <p>May 2017 - March 2018</p>
-           
-            
-              <p className='mt-2'>Renewal House is a non-profit residential treatment center for women and their children.</p>
               <br />
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
               <p>Manage the Children&apos;s Program for the residential treatment program. Case management for women and their children.
@@ -155,7 +150,7 @@ const Resume: React.FC = () => {
             <h3 className= 'font-bold mt-2'>Mental Health Specialist in Corrections </h3>
             <h3>Mental Health Cooperative</h3>
             <p>May 2016 - May 2017</p>
-              <p className='mt-2'>Mental Health Cooperative is a community mental health center in Nashville, Tennessee, that provides outpatient individual and group counseling, case management, community case management, crisis services, short-term crisis stabilization, respite services, and mental health services in Davidson County jails.</p>
+             
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
               <p>Assist in risk assessment, crisis intervention, deescalation, and supportive counseling with inmates currently incarcerated with the Davidson
@@ -166,8 +161,6 @@ const Resume: React.FC = () => {
             <h3 className= 'font-bold mt-2'>Crisis Counselor, PRN</h3>
             <h3>Mental Health Cooperative</h3>
             <p>January 2017 - December 2017 </p>
-           
-              <p>Nashville Collaborative Counseling Center began as a start-up group counseling center around 2020 and has grown tremendously. NCCC creates greater access to quality mental healthcare services in Tennessee by tailoring individual counseling to those in need.</p>
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
               <p>Respond to Crisis situations within the community or county jails to conduct crisis assessments and intervention services to appropriately address the needs of the consumer. If hospitalization is necessary, make appropriate referrals</p>
@@ -178,7 +171,7 @@ const Resume: React.FC = () => {
             <h3>Meridian Health Services</h3>
             <p>August 2015 - May 2016</p>
             
-              <p className='mt-2'>Meridian Health Services is a community mental health center that provides outpatient therapy, outpatient substance abuse treatment, intensive outpatient group therapy, and case management services</p>
+            
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
               <p>Supervised individual counseling of adult clients enrolled in the adult outpatient unit at Meridian Health Services. Work with

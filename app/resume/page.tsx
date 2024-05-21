@@ -78,11 +78,11 @@ const Resume: React.FC = () => {
            <h2 className='text-black font-bold text-2xl mb-8' >Educational Experience</h2>
             <h3 className= 'font-bold mt-2'>Software Engineering Career Track</h3>
             <h2> University of South Florida</h2>
-            <p>March 2023 - May 2024</p>
+            <p>March 2023 - April 2024</p>
            
               <br />
               <p>Over a 14 month period, I completed an intensive full-stack software engineering bootcamp, gaining experience in HTML, CSS, JavaScript, React, Express, Prisma, PostgreSQL, Python, and Flask. Beyond the core curriculum, I proactively expanded my skill set to include Next.js, Prisma, TypeScript, and Cypress, specifically focusing on these advanced tools to develop my capstone project. 
-              My frontend capabilities are well-rounded with proficiency in HTML, CSS (alongside the Tailwind framework), JavaScript, React, Next.js, JSON, and TypeScript. On the backend, I am skilled in Python, Express, and API development, with a strong foundation in database technologies such as PostgreSQL, MySQL, Prisma, and tools like DataGrip and Postman. My experience encompasses working with frameworks and platforms like Flask, Node.js, Heroku, Vercel, and GitHub, ensuring a versatile development and deployment process. Additionally, I have gained testing skills using Jest and Cypress
+              My frontend capabilities are well-rounded with proficiency in HTML, CSS, Tailwind, JavaScript, React, Next.js, JSON, and TypeScript. On the backend, I am skilled in Python, Express, and API development, with a strong foundation in database technologies such as PostgreSQL, MySQL, Prisma, and tools like DataGrip and Postman. My experience encompasses working with frameworks and platforms like Flask, Node.js, Heroku, Vercel, and GitHub, ensuring a versatile development and deployment process. Additionally, I have gained testing skills using Jest and Cypress
             </p>
             <br />
           <h3 className= 'font-bold'>MA Counseling Psychology</h3>

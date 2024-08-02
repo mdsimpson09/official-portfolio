@@ -113,11 +113,9 @@ const Resume: React.FC = () => {
               
               <br></br>
               <h1 className='font-bold mt-1'>Job Responsibilities</h1>
-              <p>Provide individual outpatient therapy via telehealth to adult clients seeking treatment to address various areas of need related to mood disorders, eating disorders, addiction and substance abuse, experiences
-              of trauma, relationships, life-transitions, grief and loss, socioeconomic stress, diversity and identity issues, respond to crises as
-              needed, consult with other therapists at the center.</p>
+              <p>Provide cutting-edge individual outpatient therapy via telehealth to adult clients navigating a spectrum of challenges, including mood disorders, eating disorders, addiction and substance abuse, trauma, relationship dynamics, life transitions, grief and loss, socioeconomic pressures, and issues related to diversity and identity. Deliver crisis intervention as needed and collaborate with fellow therapists at the center.</p>
               <p>
-                Supervise and provide clinical oversight for a team therapists at NCCC, including reviewing cases, providing consultation, assisting with treatment planning, and ensuring ethical and professional standards of care are upheld. Run bi-weekly reports for each therapist and assist in leadership meetings 
+              Supervise and offer strategic clinical oversight for a multidisciplinary team of therapists at NCCC. This includes case reviews, expert consultation, comprehensive treatment planning, and maintaining adherence to ethical and professional standards of excellence. Generate bi-weekly performance analytics for each therapist and actively contribute to leadership strategy meetings 
               </p>
               <div className="border-b-2 border-dashed text-box my-8"></div>
 

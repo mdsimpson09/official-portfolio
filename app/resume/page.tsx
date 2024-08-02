@@ -81,8 +81,7 @@ const Resume: React.FC = () => {
             <p>March 2023 - April 2024</p>
            
               <br />
-              <p>Over a 14 month period, I completed an intensive full-stack software engineering bootcamp, gaining experience in HTML, CSS, JavaScript, React, Express, Prisma, PostgreSQL, Python, and Flask. Beyond the core curriculum, I proactively expanded my skill set to include Next.js, Prisma, TypeScript, and Cypress, specifically focusing on these advanced tools to develop my capstone project. 
-              My frontend capabilities are well-rounded with proficiency in HTML, CSS, Tailwind, JavaScript, React, Next.js, JSON, and TypeScript. On the backend, I am skilled in Python, Express, and API development, with a strong foundation in database technologies such as PostgreSQL, MySQL, Prisma, and tools like DataGrip and Postman. My experience encompasses working with frameworks and platforms like Flask, Node.js, Heroku, Vercel, and GitHub, ensuring a versatile development and deployment process. Additionally, I have gained testing skills using Jest and Cypress
+              <p>Over a 14-month period, I completed an intensive full-stack software engineering bootcamp, gaining hands-on experience in both frontend and backend development. I proactively expanded my skill set beyond the core curriculum, focusing on advanced tools to develop my capstone project. My experience includes proficiency in frontend technologies, backend development, and database management. I've worked with various frameworks and platforms, ensuring a versatile development and deployment process. Additionally, I've developed strong testing skills to ensure the quality and reliability of my projects.
             </p>
             <br />
           <h3 className= 'font-bold'>MA Counseling Psychology</h3>
@@ -107,6 +106,17 @@ const Resume: React.FC = () => {
           <div className="mb-4">
            
           <h2 className='text-black font-bold text-2xl mb-10 '>Professional Experience</h2>
+
+          <h3 className= 'font-bold mt-2'>Freelance Full-Stack Developer</h3>
+            <h3>Nashville Collaborative Counseling Center</h3>
+            <p>July 2024 - Present</p>
+              
+              <br></br>
+              <h1 className='font-bold mt-1'>Job Responsibilities</h1>
+              <p>I develop custom websites tailored to client specifications, utilizing various programming languages and frameworks. I create responsive designs to ensure optimal user experiences across all devices. My work includes front-end and back-end development, as well as e-commerce integration. Additionally, I provide ongoing website maintenance and updates to keep sites running smoothly and securely.</p>
+          
+              <div className="border-b-2 border-dashed text-box my-8"></div>
+
           <h3 className= 'font-bold mt-2'>Licensed Professional Counselor and Team Lead Supervisor</h3>
             <h3>Nashville Collaborative Counseling Center</h3>
             <p>October 2020 - Present</p>
@@ -117,6 +127,15 @@ const Resume: React.FC = () => {
               <p>
               Supervise and offer strategic clinical oversight for a multidisciplinary team of therapists at NCCC. This includes case reviews, expert consultation, comprehensive treatment planning, and maintaining adherence to ethical and professional standards of excellence. Generate bi-weekly performance analytics for each therapist and actively contribute to leadership strategy meetings 
               </p>
+              <div className="border-b-2 border-dashed text-box my-8"></div>
+              <h3 className= 'font-bold mt-2'>Freelance Full-Stack Developer</h3>
+            <h3>M&K Getaway LLC</h3>
+            <p>January 2022 - Present</p>
+              
+              <br></br>
+              <h1 className='font-bold mt-1'>Job Responsibilities</h1>
+              <p>As the owner and operator of a short-term rental property under M&K Getaway LLC since January 2022, I oversee all aspects of property management, including guest communications, bookings. I ensure that the cleaning and management team maintain high standards of cleanliness and positive guest experiences.</p>
+          
               <div className="border-b-2 border-dashed text-box my-8"></div>
 
               <h3 className= 'font-bold mt-2'>Admissions Counselor</h3>

@@ -127,30 +127,7 @@ const Resume: React.FC = () => {
               <p>
               Supervise and offer strategic clinical oversight for a multidisciplinary team of therapists at NCCC. This includes case reviews, expert consultation, comprehensive treatment planning, and maintaining adherence to ethical and professional standards of excellence. Generate bi-weekly performance analytics for each therapist and actively contribute to leadership strategy meetings 
               </p>
-              <div className="border-b-2 border-dashed text-box my-8"></div>
-              <h3 className= 'font-bold mt-2'>Freelance Full-Stack Developer</h3>
-            <h3>M&K Getaway LLC</h3>
-            <p>January 2022 - Present</p>
-              
-              <br></br>
-              <h1 className='font-bold mt-1'>Job Responsibilities</h1>
-              <p>As the owner and operator of a short-term rental property under M&K Getaway LLC since January 2022, I oversee all aspects of property management, including guest communications, bookings. I ensure that the cleaning and management team maintain high standards of cleanliness and positive guest experiences.</p>
-          
-              <div className="border-b-2 border-dashed text-box my-8"></div>
-
-              <h3 className= 'font-bold mt-2'>Admissions Counselor</h3>
-            <h3>Rolling Hills Hospital</h3>
-            <p>March 2018 - March 2021</p>
-          
-              <br></br>
-              <h1 className='font-bold mt-1'>Job Responsibilities</h1>
-              <p>Review referrals from hospitals, crisis response teams and verify insurance benefits, while working with other team members to
-              assess for level of acuity and possible acceptance. Field phone calls from referral sources and individuals seeking both
-              information and treatment for themselves or others. Perform assessments on individuals either referred for treatment or walk-in,
-              on a voluntarily or involuntary basis. Assist patients and their families in the transition from the admissions department to the
-              specific inpatient unit or with outpatient referrals. Complete pre-authorizations with insurance companies prior to patient’s
-              admission into the hospital. Assist other units as needed and respond to various codes throughout the hospital.</p>
-              <div className="border-b-2 border-dashed text-box my-8"></div>
+            
             
 
             <h3 className= 'font-bold mt-2'>Case Manager and Children&apos;s Program Manager</h3>

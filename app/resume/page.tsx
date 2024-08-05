@@ -127,6 +127,8 @@ const Resume: React.FC = () => {
               <p>
               Supervise and offer strategic clinical oversight for a multidisciplinary team of therapists at NCCC. This includes case reviews, expert consultation, comprehensive treatment planning, and maintaining adherence to ethical and professional standards of excellence. Generate bi-weekly performance analytics for each therapist and actively contribute to leadership strategy meetings 
               </p>
+
+              
               <div className="border-b-2 border-dashed text-box my-8"></div>
               <h3 className= 'font-bold mt-2'>Self-Employed Short-Term Rentals</h3>
             <h3>M&K Getaway LLC</h3>
